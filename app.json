@@ -1,0 +1,88 @@
+{
+    "name": "ElrixXMusic",
+    "logo": "https://telegra.ph/file/257c2b28860112a84d985.jpg",
+    "description": "KennedyX Music allow you to stream music trought the telegram voice chat feature.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/mrnitric/ElrixXMusic",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "your bot token from @BotFather",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "your music bot name.",
+            "required": false,
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "fill with your bot username without @",
+            "required": true,
+            "value": "ElrixXBot"
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with the assistant username without @",
+            "required": true,
+            "value": "ElrixXAssistant"
+        },
+        "BG_IMAGE": {
+            "description": "fill with your link costum background image",
+            "required": false,
+            "value": "https://telegra.ph/file/ccdb7dd3392bc90248472.jpg"
+        },
+        "THUMB_IMG": {
+            "description": "fill with costum thumbnail image it's different with bg_image",
+            "required": false,
+            "value": "https://telegra.ph/file/257c2b28860112a84d985.jpg"
+        },
+        "OWNER_NAME": {
+            "description": "fill with your username without @",
+            "required": false,
+            "value": "Oo_Elrix"
+        },
+        "API_ID": {
+            "description": "your App ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "your Api hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "list of sudo user you want to control bot.",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "Max duration time limit bot.",
+            "required": true,
+            "value": "90"
+        },
+        "PMPERMIT": {
+            "description": "pm-permit for assistant.",
+            "required": false,
+            "value": "ENABLE"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "CHanne Username without @.",
+            "required": false,
+            "value": "Sanki_BOTs"
+        },
+        "GROUP_SUPPORT": {
+            "description": "GRoup Username without @.",
+            "required": false,
+            "value": "Dramaa_Club"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
