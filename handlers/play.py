@@ -563,7 +563,6 @@ async def play(_, message: Message):
                     InlineKeyboardButton("👑 Owner", url=f"https://t.me/Bukan_guudlooking"),
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
-        )
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)
         file_path = await converter.convert(youtube.download(url))        
