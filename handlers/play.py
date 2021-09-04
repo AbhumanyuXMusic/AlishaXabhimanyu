@@ -508,7 +508,8 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
                     InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
-                ],[
+                ],
+                [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
                     InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
                 ],
