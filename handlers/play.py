@@ -375,8 +375,7 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("📖 Playlist", "playlist"),
                 ],
                 [InlineKeyboardButton("❌ Close", "cls")],
-            ]
-        )
+            ])
         await cb.message.edit(stats, reply_markup=marr)
     elif type_ == "skip":
         if qeue:
