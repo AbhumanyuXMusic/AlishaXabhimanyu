@@ -791,12 +791,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/ABOUT_ABHI"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/SHAYRI_MUSIC_LOVERS"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Venom_Hai_Hum"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -855,7 +855,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "ElrixXMusic"
+        user.first_name = "AbhiXMusic"
     usar = user
     wew = usar.id
     try:
@@ -918,7 +918,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumbnail = "https://telegra.ph/file/b7afcebda7dcf7c8d37e1.jpg"
 
     except:
         await res.edit("**No Song Found !!**")
@@ -933,7 +933,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="📍 Channel", url="https://t.me/Sanki_BOTs")],
+            [InlineKeyboardButton(text="📍 Channel", url="https://t.me/ABOUT_ABHI")],
         ]
     )
     file_path = await converter.convert(wget.download(url))
@@ -1031,12 +1031,12 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/Dramaa_Club"),
-                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/Sanki_BOTs"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/SHAYRI_MUSIC_LOVERS"),
+                    InlineKeyboardButton("📍 Channel", url=f"https://t.me/ABOUT_ABHI"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Oo_Elrix"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/Venom_Hai_Hum"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
