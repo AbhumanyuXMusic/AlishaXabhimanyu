@@ -1,7 +1,7 @@
-<h2 align="centre">⚡ ⋆ 𝙀𝙇𝙧𝙞𝙭 ✘ 𝙈𝙪𝙨𝙞𝙘 ⋆</h2>
+<h2 align="centre">⚡ ⋆ 𝘼𝙡𝙞𝙨𝙝𝙖 ✘ 𝙈𝙪𝙨𝙞𝙘 ⋆</h2>
 
 ### Music bot for playing music on telegram voice chat group.
-<p align="center"><a href="https://t.me/ElrixXBot"><img src="https://telegra.ph/file/257c2b28860112a84d985.jpgp0p" width="300"></a></p>
+<p align="center"><a href="https://t.me/QueenAlishaRobot"><img src="https://telegra.ph/file/257c2b28860112a84d985.jpgp0p" width="300"></a></p>
 
 <h3>Requirements 📝</h3>
 
