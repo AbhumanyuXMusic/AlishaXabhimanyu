@@ -60,7 +60,7 @@ For deployment on railway you can see the full of [Necessary Variables Here](htt
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/mrnitric/ElrixXMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,GROUP_SUPPORT,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT,THUMB_IMG)
 
 ### Special Credits ⚡
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
+- [Abhimanyu Op](https://t.me/Venom_Hai_Hum) CallsMusic Developer
 
 ### Support & Updates 🎑
-<a href="https://t.me/kenbotsupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ABOUTABHI"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
