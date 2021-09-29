@@ -33,25 +33,25 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>📌 **Holla, {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}](https://t.me/ElrixXBot) I Am A Voice Call Group Music Player. For Info On How To Use Me, You Can Type /help**
+💭 **[{BOT_NAME}](https://t.me/QueenAlishaRobot) I Am A Voice Call Group Music Player. For Info On How To Use Me, You Can Type /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add Me To Your Group ➕", url=f"https://t.me/ElrixXBot?startgroup=true")
+                        "➕ Add Me To Your Group ➕", url=f"https://t.me/QueenAlishaRobot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                          "Commands", url="https://telegra.ph/%F0%9D%99%80%F0%9D%99%87%F0%9D%99%A7%F0%9D%99%9E%F0%9D%99%AD--%F0%9D%99%88%F0%9D%99%AA%F0%9D%99%A8%F0%9D%99%9E%F0%9D%99%98-09-03-2"
                     ),
                     InlineKeyboardButton(
-                        "Donate", url=f"https://t.me/Oo_Elrix")
+                        "Donate", url=f"https://t.me/Venom_Hai_Hum")
                 ],[
                     InlineKeyboardButton(
-                        "Official Group", url=f"https://t.me/Dramaa_Club"
+                        "Official Group", url=f"https://t.me/https://t.me/Shayri_Music_Lovers"
                     ),
                     InlineKeyboardButton(
-                        "Official Channel", url=f"https://t.me/Sanki_BOTs")
+                        "Official Channel", url=f"https://t.me/ABOUTABHI")
                 ]
             ]
         ),
@@ -65,15 +65,15 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **Bot Is Running**\n<b>⚡ **Uptime :**</b> `{uptime}`""",
+        f"""✅ **ALISHA MUSIC IS RUNNING**\n<b>⚡ **Uptime :**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url=f"https://t.me/Dramaa_Club"
+                        "Group", url=f"https://t.me/Shayri_Music_Lovers"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url=f"https://t.me/Sanki_BOTs"
+                        "Channel", url=f"https://t.me/ABOUTABHI"
                     )
                 ]
             ]
@@ -88,7 +88,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="❔ HOW TO USE ME", url=f"https://t.me/ElrixXBot?start=help"
+                        text="❔ HOW TO USE ME", url=f"https://t.me/QueenAlishaRobot?start=help"
                     )
                 ]
             ]
@@ -141,15 +141,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "GROUP", url=f"https://t.me/Dramaa_Club"
+                        "GROUP", url=f"https://t.me/Shayri_Music_Lovers"
                     ),
                     InlineKeyboardButton(
-                        "CHANNEL", url=f"https://t.me/Sanki_BOTs"
+                        "CHANNEL", url=f"https://t.me/ABOUTABHI"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "DEVELOPER", url=f"https://t.me/Oo_Elrix"
+                        "DEVELOPER", url=f"https://t.me/Venom_Hai_Hum"
                     )
                 ]
             ]
